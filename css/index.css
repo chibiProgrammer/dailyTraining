@@ -17,21 +17,22 @@ p.explanation {
 }
 
 .left-image {
-    height: 220px;
+    height: 350px;
     width: auto;
     float: middle;
 }
 
 .btn-gradient-radius-easy {
     display: inline-block;
-    padding: 7px 30px;
-    border-radius: 25px;
+    padding: 10px 70px;
+    border-radius: 35px;
     text-decoration: none;
     color: #FFF;
     background-image: linear-gradient(45deg, #7fffd4 0%, #00ffaa 100%);
     transition: .4s;
     margin-bottom: 20px;
     margin-top: 10px;
+    font-size: 2.5em;
 }
   
 .btn-gradient-radius-easy:hover {
@@ -40,14 +41,15 @@ background-image: linear-gradient(45deg, #53ffc6 0%, #06d38e 100%);
 
 .btn-gradient-radius-normal {
     display: inline-block;
-    padding: 7px 30px;
-    border-radius: 25px;
+    padding: 10px 70px;
+    border-radius: 35px;
     text-decoration: none;
     color: #FFF;
     background-image: linear-gradient(45deg, #ffdb99 0%, #ffa500 100%);
     transition: .4s;
     margin-bottom: 20px;
     margin-top: 10px;
+    font-size: 2.5em;
 }
   
 .btn-gradient-radius-normal:hover {
@@ -56,14 +58,15 @@ background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
 
 .btn-gradient-radius-difficult {
     display: inline-block;
-    padding: 7px 30px;
-    border-radius: 25px;
+    padding: 10px 70px;
+    border-radius: 35px;
     text-decoration: none;
     color: #FFF;
     background-image: linear-gradient(45deg, #ff9999 0%, #ff0000 100%);
     transition: .4s;
     margin-bottom: 20px;
     margin-top: 10px;
+    font-size: 2.5em;
 }
   
 .btn-gradient-radius-difficult:hover {

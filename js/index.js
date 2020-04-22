@@ -34,31 +34,41 @@ function twitText(button)
 {
     var id_value = button.id
     url = document.location.href;
+    dailyTrainingUrl = "https://chibiprogrammer.github.io/dailyTraining/";
     switch(id_value){
         case 'easy':
             var tweetText = 'https://twitter.com/intent/tweet?text='+
             encodeURIComponent(
-                "今日する運動\n" + 
+                "今日の運動メニュー\n" + 
+                "ーーーーーーーー\n" +
                 easyMotion(easyMenu) +
-                '#うんどうしたったー'
+                "ーーーーーーーー\n" +
+                '#うんどうしたったー\n' +
+                encodeURI(dailyTrainingUrl)
             );
         break;
 
         case 'normal':
             var tweetText = 'https://twitter.com/intent/tweet?text='+
             encodeURIComponent(
-                "今日する運動\n" + 
+                "今日の運動メニュー\n" + 
+                "ーーーーーーーー\n" +
                 normalMotion(normalMenu) +
-                '#うんどうしたったー'
+                "ーーーーーーーー\n" +
+                '#うんどうしたったー\n'+
+                encodeURI(dailyTrainingUrl)
             );
         break;
 
         case 'difficult':
             var tweetText = 'https://twitter.com/intent/tweet?text='+
             encodeURIComponent(
-                "今日する運動\n" + 
+                "今日の運動メニュー\n" + 
+                "ーーーーーーーー\n" +
                 difficultMotion(difficultMenu) +
-                '#うんどうしたったー'
+                "ーーーーーーーー\n" +
+                '#うんどうしたったー\n'+
+                encodeURI(dailyTrainingUrl)
             );
         break;
 
