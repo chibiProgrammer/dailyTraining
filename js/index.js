@@ -39,7 +39,9 @@ function twitText(button)
             var tweetText = 'https://twitter.com/intent/tweet?text='+
             encodeURIComponent(
                 "今日する運動\n" + 
+                "--------" +
                 easyMotion(easyMenu) +
+                "--------" +
                 '#うんどうしたったー'
             );
         break;
@@ -48,7 +50,9 @@ function twitText(button)
             var tweetText = 'https://twitter.com/intent/tweet?text='+
             encodeURIComponent(
                 "今日する運動\n" + 
+                "--------" +
                 normalMotion(normalMenu) +
+                "--------" +
                 '#うんどうしたったー'
             );
         break;
@@ -57,7 +61,9 @@ function twitText(button)
             var tweetText = 'https://twitter.com/intent/tweet?text='+
             encodeURIComponent(
                 "今日する運動\n" + 
+                "--------" +
                 difficultMotion(difficultMenu) +
+                "--------" +
                 '#うんどうしたったー'
             );
         break;
